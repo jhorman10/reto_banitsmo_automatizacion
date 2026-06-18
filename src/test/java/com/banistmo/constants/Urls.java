@@ -1,4 +1,4 @@
-package com.banistmo.domain.constants;
+package com.banistmo.constants;
 
 public final class Urls {
 

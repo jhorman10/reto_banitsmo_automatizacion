@@ -1,4 +1,4 @@
-package com.banistmo.domain.constants;
+package com.banistmo.constants;
 
 public final class Messages {
 
@@ -10,6 +10,5 @@ public final class Messages {
     public static final String SELECT_OPTION = "{0} selecciona ";
     public static final String EXPAND_SECTION = "{0} expande la seccion ";
     public static final String DOWNLOAD_DOCUMENT = "{0} descarga el reglamento de inversion virtual";
-    public static final String ELEMENT_TEMPLATE = "Element %s";
-    public static final String NO_VISIBLE_ELEMENT = "no visible element found";
+    public static final String NO_VISIBLE_ELEMENT_FOUND = "no visible element found";
 }
