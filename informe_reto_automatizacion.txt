@@ -220,6 +220,14 @@ Evidencia de ejecución exitosa:
   CucumberTestSuite > Descargar y validar el Reglamento PASSED
   BUILD SUCCESSFUL in ~30s
 
+Capturas de pantalla del reporte Serenity:
+
+  [Vista general del reporte](screenshots/serenity_overview.png)
+  [Resultado del test](screenshots/serenity_test_result.png)
+  [Pasos del escenario](screenshots/serenity_steps.png)
+
+  NOTA: Las capturas se encuentran en el directorio screenshots/ del proyecto.
+
 ================================================================================
 
 5. NOTAS ADICIONALES

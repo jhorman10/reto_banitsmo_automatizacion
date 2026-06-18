@@ -27,6 +27,7 @@ out/
 *.csv
 *.log
 *.png
+!screenshots/*.png
 *.jpg
 *.jpeg
 *.gif
