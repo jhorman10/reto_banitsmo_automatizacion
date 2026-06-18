@@ -62,3 +62,9 @@ Desktop.ini
 *.local
 *.env
 .env
+
+# Node
+node_modules/
+
+# Agent
+.atl/
