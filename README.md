@@ -77,7 +77,11 @@ Los reportes se generan en:
 
 ## Entrega
 
-Ver `informe_reto_automatizacion.txt` para el informe completo incluyendo:
-- Pasos realizados con explicaciones
-- Comandos de Git
+Ver los informes completos:
+- [`INFORME.md`](INFORME.md) — Informe detallado en Markdown (recomendado, incluye capturas del reporte Serenity)
+- [`informe_reto_automatizacion.txt`](informe_reto_automatizacion.txt) — Informe en texto plano
+
+Ambos incluyen:
+- Pasos realizados con explicaciones técnicas
+- Comandos de Git utilizados
 - [Repositorio en GitHub](https://github.com/jhorman10/reto_banitsmo_automatizacion)
