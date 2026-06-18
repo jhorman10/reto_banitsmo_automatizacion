@@ -164,14 +164,11 @@ Repositorio: https://github.com/jhorman10/reto_banitsmo_automatizacion
 3. COMANDOS DE GIT UTILIZADOS
 ================================================================================
 
-# Verificar el estado del repositorio
+# Verificar el estado inicial del repositorio local
 git status
 
-# Agregar todos los archivos del proyecto al área de staging
-git add .
-
-# Verificar qué archivos están en staging
-git status
+# Agregar archivos clave al staging (excluyendo build/ y target/ via .gitignore)
+git add .gitignore build.gradle settings.gradle gradlew gradlew.bat gradle/ src/ README.md
 
 # Crear el commit inicial con todo el código del proyecto
 git commit -m "feat: implementacion automatizacion reto Banistmo
@@ -182,24 +179,41 @@ git commit -m "feat: implementacion automatizacion reto Banistmo
 - Validacion de PDF con PDFBox 3.0.7
 - Runner con JUnit Platform @Suite"
 
-# Agregar el repositorio remoto (REEMPLAZAR con la URL correcta)
-git remote add origin https://github.com/TU_USUARIO/reto-banitsmo-automatizacion.git
+# Configurar la rama principal como 'main'
+git branch -M main
+
+# Agregar el repositorio remoto de GitHub
+git remote add origin https://github.com/jhorman10/reto_banitsmo_automatizacion.git
 
 # Verificar el remote configurado
 git remote -v
 
-# Subir el código a GitHub (rama principal)
-git push -u origin master
+# Subir el código a GitHub (primer push)
+git push -u origin main
 
-# NOTA: Si el repositorio remoto tiene protecciones de rama o usa 'main'
-# en lugar de 'master', usar:
-# git push -u origin main
+# Agregar el informe de entrega al staging
+git add informe_reto_automatizacion.txt
 
-# Para ver el historial de commits
+# Commit de la actualizacion del informe con URL correcta
+git commit -m "fix: actualiza URL del repositorio en informe"
+
+# Subir cambios
+git push
+
+# Agregar capturas de pantalla del reporte Serenity
+git add .gitignore screenshots/ informe_reto_automatizacion.txt
+
+# Commit de las capturas
+git commit -m "feat: agrega capturas de pantalla del reporte Serenity"
+
+# Subir capturas
+git push
+
+# Ver historial completo de commits
 git log --oneline
 
-# Para ver diferencias entre versiones
-git diff
+# Ver detalle de un commit especifico
+git show 4e45337 --stat
 
 ================================================================================
 
@@ -230,7 +244,19 @@ Capturas de pantalla del reporte Serenity:
 
 ================================================================================
 
-5. NOTAS ADICIONALES
+5. HISTORIAL DE COMMITS
+================================================================================
+
+4e45337 feat: agrega capturas de pantalla del reporte Serenity
+92b66a6 fix: actualiza URL del repositorio en informe y README
+1cc51a8 feat: implementacion automatizacion reto Banistmo
+
+Repositorio completo: https://github.com/jhorman10/reto_banitsmo_automatizacion
+Rama: main
+
+================================================================================
+
+6. NOTAS ADICIONALES
 ================================================================================
 
 - La URL del PDF se obtuvo inspeccionando el enlace "Conocer el reglamento"
