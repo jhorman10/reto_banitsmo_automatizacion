@@ -157,17 +157,7 @@ e) CONFIGURACIÓN DE NAVEGADOR:
 2. ENLACE AL REPOSITORIO
 ================================================================================
 
-Repositorio: [PENDIENTE - Crear repositorio y subir el código]
-
-Instrucciones para crear el repositorio en GitHub:
-
-  1. Ir a https://github.com/new
-  2. Crear un repositorio con nombre (ej: reto-banitsmo-automatizacion)
-  3. NO inicializar con README, .gitignore o license
-  4. Ejecutar los comandos de la sección 3
-
-Una vez creado, el enlace será similar a:
-  https://github.com/[TU_USUARIO]/reto-banitsmo-automatizacion
+Repositorio: https://github.com/jhorman10/reto_banitsmo_automatizacion
 
 ================================================================================
 

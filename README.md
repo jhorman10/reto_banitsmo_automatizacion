@@ -80,4 +80,4 @@ Los reportes se generan en:
 Ver `informe_reto_automatizacion.txt` para el informe completo incluyendo:
 - Pasos realizados con explicaciones
 - Comandos de Git
-- Enlace al repositorio
+- [Repositorio en GitHub](https://github.com/jhorman10/reto_banitsmo_automatizacion)
